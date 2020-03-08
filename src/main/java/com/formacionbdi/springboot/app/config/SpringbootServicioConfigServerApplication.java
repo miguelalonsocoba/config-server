@@ -2,7 +2,14 @@ package com.formacionbdi.springboot.app.config;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
+import org.springframework.cloud.config.server.EnableConfigServer;
 
+/**
+ * Se habilita como servidor de configuración con la
+ * etiqueta @EnableConfigServer.
+ */
+
+@EnableConfigServer
 @SpringBootApplication
 public class SpringbootServicioConfigServerApplication {
 
